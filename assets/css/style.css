@@ -468,16 +468,17 @@ footer{
         display:block;
         justify-content: space-between;
         flex-wrap: wrap;
-        /*padding-top: 10px;*/
-        padding-bottom: 10px;
+        padding-bottom: 5%;
     }
     h2{
         font-size: 20px;
+        margin-left: 6%;
     }
     #menu{
         flex-direction: column-reverse;
         align-items:center;
         font-size: 15px;
+        margin-right: 20%;
     }
     nav a:hover{
         border-top: hidden;
@@ -486,15 +487,15 @@ footer{
     .sinscrire{
     
        position:absolute;
-       top: 27px;
+       top: 4%;
        right: 11%;
     }
     #searchsection{
-        margin-left: 15px;
+        margin-left: 5%;
     }
     label/*button */
     {border-radius: 15px 15px 15px 15px;
-    margin-left: -15px;}
+    margin-left: -5%;}
     .fa-search{
         visibility: visible;
     }
@@ -502,7 +503,7 @@ footer{
    
     .filtre{
         margin: 5px 15px 5px 0px;
-        padding-right: 10px;
+        padding-right: 5%;
         font-size: 12px;
         border: 1.8px solid #dddbdb;
     }
@@ -518,7 +519,7 @@ footer{
         margin-left: 0px;
     }
     #populaires{
-        padding-left: 25px;
+        padding-left: 1%;
         
     }
     #cardspop{
@@ -545,7 +546,7 @@ footer{
     } 
     /************************/
     #sectionactivites h2{
-        margin-left: 30px;
+        margin-left: 6%;
     }
     #activites{
         flex-direction: column;
@@ -579,6 +580,9 @@ footer{
         padding-left: 30px;
         font-size: 0.9em;
         margin-top: 10px;
+    }
+    footer h2{
+        margin-left: 0%;
     }
 }     
 
