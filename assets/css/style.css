@@ -14,8 +14,8 @@ a{
 figure /*all figures*/
 {
     border-radius: 20px;
-    margin: 15px;
-    padding: 5px;
+    margin: 15%;
+    padding: 5%;
 }
 #pagecontainer /*common margin for header and main*/
 {width: 95%;
