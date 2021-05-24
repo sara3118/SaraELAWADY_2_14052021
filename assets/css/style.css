@@ -2,6 +2,7 @@
 body{
     font-family: "Raleway", sans-serif;
     margin: 0px;
+    color: black;
 }
 
 a{
@@ -74,11 +75,12 @@ nav a:hover{
 input{
     border: 1px solid #f2f2f2;
     width: 200px;
-    font-weight: bold;
     color: black;
+    font-weight: bold;
     text-indent: 5px;
 }
-label/*serch button*/
+
+label/*search button*/
 {background-color: blue;
 color: white;
 padding: 15px 15px 0px 15px;
@@ -469,10 +471,10 @@ footer{
         justify-content: space-between;
         flex-wrap: wrap;
         padding-bottom: 5%;
+      
     }
     h2{
         font-size: 20px;
-        margin-left: 6%;
     }
     #menu{
         flex-direction: column-reverse;
